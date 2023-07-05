@@ -60,5 +60,5 @@ void handleWebSocket(HttpRequest req) async {
     channel.sink.add('Echo: $message');
   });
 
-  channel.sink.add('Connected to server1');
+  channel.sink.add('Connected to server1.1');
 }
